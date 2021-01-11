@@ -1,0 +1,6 @@
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\bin\Debug\Number Guess Game.exe.config
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\bin\Debug\Number Guess Game.exe
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\bin\Debug\Number Guess Game.pdb
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\obj\Debug\Number Guess Game.csproj.CoreCompileInputs.cache
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\obj\Debug\Number Guess Game.exe
+D:\C#-Console\C-Sharp-Projects\Number Guess Game\Number Guess Game\obj\Debug\Number Guess Game.pdb
