@@ -1,0 +1,7 @@
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe.config
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.pdb
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csprojAssemblyReference.cache
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.exe
+D:\C#-Console\C-Sharp-Projects\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb
