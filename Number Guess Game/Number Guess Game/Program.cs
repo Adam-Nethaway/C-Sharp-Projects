@@ -13,6 +13,7 @@ namespace Number_Guess_Game
             int randomNumber;
             int guessNumber = 0;
             bool playagain = true;
+            int playerGuess;
             
             Random random = new Random();
             randomNumber = random.Next(1, 100);
@@ -20,37 +21,49 @@ namespace Number_Guess_Game
             do
             {
                 Console.WriteLine("Guess a number between 1 and 100. " + (10 - guessNumber) + " guesses remaining ");
-                string playerGuess = Console.ReadLine();
+                string playerInput = Console.ReadLine();
 
-                if (guessNumber < randomNumber)
+                playerGuess = ValidateNumber(playerInput);
+
+                if (playerGuess < randomNumber)
                 {
                     Console.WriteLine("Too low.. guess again\n ");
                     guessNumber++;
                 }
-                else if (guessNumber > randomNumber)
+                else if (playerGuess > randomNumber)
                 {
                     Console.WriteLine("Too high, guess again\n ");
                     guessNumber++;
                 }
-                else if (guessNumber == randomNumber)
+                else if (guessNumber == 10)
                 {
-                    Console.WriteLine("That is correct! Play Again?" );
-                }     
-            } while(guessNumber < 10 && playagain);
+                    Console.WriteLine("You lose! ");
+                }
+                else
+                {
+                    Console.WriteLine("That is correct!");
+                    guessNumber = 10;
+                }
+            } while (guessNumber < 10);
 
-            string keepGoing = Console.ReadLine().ToLower();
+            Console.WriteLine("Thanks for playing. PRESS ENTER TO CLOSE ");
+            Console.ReadLine().ToLower();
 
-            while (keepGoing != "yes" && keepGoing != "no")
+        }
+
+        static int ValidateNumber(string number)
+        {
+            int validNumber;
+
+            while (!int.TryParse(number, out validNumber))
             {
-                Console.WriteLine("Yes or No?");
-                keepGoing = Console.ReadLine().ToLower();
+                Console.Write("Please only use integers. Try again: ");
+                number = Console.ReadLine().ToUpper();
             }
 
-            if (keepGoing == "no")
-            {
-                playagain = false;
-            }
-
+            return validNumber;
         }
     }
 }
+
+
