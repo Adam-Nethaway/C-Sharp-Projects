@@ -1,0 +1,7 @@
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\bin\Debug\Calculator Console.exe.config
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\bin\Debug\Calculator Console.exe
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\bin\Debug\Calculator Console.pdb
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\obj\Debug\Calculator Console.csprojAssemblyReference.cache
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\obj\Debug\Calculator Console.csproj.CoreCompileInputs.cache
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\obj\Debug\Calculator Console.exe
+C:\Users\adamw\source\repos\Calculator Console\Calculator Console\obj\Debug\Calculator Console.pdb
