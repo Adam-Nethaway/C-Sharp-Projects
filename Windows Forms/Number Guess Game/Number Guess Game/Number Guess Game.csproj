@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}</ProjectGuid>
+    <ProjectGuid>{943C4E5A-1A69-424A-8F8E-2D0253F594AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Guess_Game</RootNamespace>
-    <AssemblyName>Guess Game</AssemblyName>
+    <RootNamespace>Number_Guess_Game</RootNamespace>
+    <AssemblyName>Number Guess Game</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
