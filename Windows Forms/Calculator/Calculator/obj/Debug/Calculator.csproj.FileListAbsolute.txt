@@ -12,7 +12,6 @@ D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\bin\Debug\Calcula
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\bin\Debug\Calculator.exe
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\bin\Debug\Calculator.pdb
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
-D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
 D:\GitHub\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
