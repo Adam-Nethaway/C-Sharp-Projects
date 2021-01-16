@@ -201,11 +201,15 @@ namespace Calculator
             this.eraseButton.TabIndex = 15;
             this.eraseButton.Text = "ce";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.eraseButton.UseVisualStyleBackColor = false;
             this.eraseButton.Click += new System.EventHandler(this.eraseButton_Click);
 =======
             this.eraseButton.UseVisualStyleBackColor = true;
 >>>>>>> 2c2a697a6018877f647ddc5a012c054fda03dd0b
+=======
+            this.eraseButton.UseVisualStyleBackColor = true;
+>>>>>>> parent of 9c489f8... FormDone
             // 
             // squareButton
             // 
@@ -261,11 +265,15 @@ namespace Calculator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.ClientSize = new System.Drawing.Size(344, 516);
 =======
             this.ClientSize = new System.Drawing.Size(298, 460);
 >>>>>>> 2c2a697a6018877f647ddc5a012c054fda03dd0b
+=======
+            this.ClientSize = new System.Drawing.Size(298, 460);
+>>>>>>> parent of 9c489f8... FormDone
             this.Controls.Add(this.multiplyButton);
             this.Controls.Add(this.inputBox);
             this.Controls.Add(this.divideButton);
