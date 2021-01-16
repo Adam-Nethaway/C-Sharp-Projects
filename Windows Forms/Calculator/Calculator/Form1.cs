@@ -13,7 +13,7 @@ namespace Calculator
     public partial class Form1 : Form
     {
         string firstInput, secondINput, operation;
-        string input;
+        
         
         public Form1()
         {
@@ -22,7 +22,7 @@ namespace Calculator
 
         private void zeroButton_Click(object sender, EventArgs e)
         {
-            input = "0";
+            firstInput = "0";
             inputBox.Text += ("0");
         }
 
