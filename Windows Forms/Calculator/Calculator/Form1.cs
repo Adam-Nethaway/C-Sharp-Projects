@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Guess_Game
+namespace Calculator
 {
-    public partial class guessingGame : Form
+    public partial class Form1 : Form
     {
-        public guessingGame()
+        public Form1()
         {
             InitializeComponent();
         }

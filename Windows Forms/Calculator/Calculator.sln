@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess Game", "Guess Game\Guess Game.csproj", "{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{7AD39F37-F5CD-458B-AEEF-ED15300F579F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD39F37-F5CD-458B-AEEF-ED15300F579F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD39F37-F5CD-458B-AEEF-ED15300F579F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD39F37-F5CD-458B-AEEF-ED15300F579F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD39F37-F5CD-458B-AEEF-ED15300F579F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {20FCF07D-A48E-4932-B800-C73529EBEDFE}
+		SolutionGuid = {CBFEC3D1-5D8C-4925-9B74-010A8D197E96}
 	EndGlobalSection
 EndGlobal
