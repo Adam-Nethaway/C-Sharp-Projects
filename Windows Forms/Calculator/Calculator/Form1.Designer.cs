@@ -207,13 +207,14 @@ namespace Calculator
             // 
             // eraseButton
             // 
+            this.eraseButton.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.eraseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eraseButton.Location = new System.Drawing.Point(12, 122);
             this.eraseButton.Name = "eraseButton";
             this.eraseButton.Size = new System.Drawing.Size(75, 72);
             this.eraseButton.TabIndex = 15;
             this.eraseButton.Text = "ce";
-            this.eraseButton.UseVisualStyleBackColor = true;
+            this.eraseButton.UseVisualStyleBackColor = false;
             this.eraseButton.Click += new System.EventHandler(this.eraseButton_Click);
             // 
             // squareButton
@@ -274,6 +275,7 @@ namespace Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.ClientSize = new System.Drawing.Size(344, 516);
             this.Controls.Add(this.multiplyButton);
             this.Controls.Add(this.inputBox);
