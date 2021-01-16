@@ -12,6 +12,8 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string userINput;
+        
         public Form1()
         {
             InitializeComponent();
