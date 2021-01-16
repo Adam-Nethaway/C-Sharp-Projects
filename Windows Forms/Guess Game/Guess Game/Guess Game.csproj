@@ -4,10 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD:Windows Forms/Calculator/Calculator/Calculator.csproj
     <ProjectGuid>{017B12FC-4E5F-47FF-B9C7-80782B1EC98D}</ProjectGuid>
+=======
+    <ProjectGuid>{B2EEE3E9-C41A-49EE-BF06-26AD7A9A892F}</ProjectGuid>
+>>>>>>> parent of cbb9f5b... Calculator:Windows Forms/Guess Game/Guess Game/Guess Game.csproj
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Calculator</RootNamespace>
-    <AssemblyName>Calculator</AssemblyName>
+    <RootNamespace>Guess_Game</RootNamespace>
+    <AssemblyName>Guess Game</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
