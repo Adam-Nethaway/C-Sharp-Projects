@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
+ 
     public partial class Form1 : Form
     {
         string userInput = "";
@@ -27,7 +28,7 @@ namespace Calculator
         {
             textBox1.Text = "";
             userInput += "1";
-            textBox1.Text += userInput;          
+            textBox1.Text += userInput;
         }
 
         private void buttonTwo_Click(object sender, EventArgs e)
@@ -170,7 +171,7 @@ namespace Calculator
             {
                 case '+':
                     result = firstNumber + secondNumber;
-                    textBox1.Text = result.ToString();                 
+                    textBox1.Text = result.ToString();
                     break;
                 case '-':
                     result = firstNumber - secondNumber;
