@@ -27,7 +27,7 @@ namespace Calculator
         {
             textBox1.Text = "";
             userInput += "1";
-            textBox1.Text += userInput;
+            textBox1.Text += userInput;          
         }
 
         private void buttonTwo_Click(object sender, EventArgs e)
@@ -103,42 +103,91 @@ namespace Calculator
         private void buttonMinus_Click(object sender, EventArgs e)
         {
             operation = '-';
+            firstInput = userInput;
+            userInput = "";
         }
 
         private void buttonPlus_Click(object sender, EventArgs e)
         {
             operation = '+';
+            firstInput = userInput;
+            userInput = "";
+            textBox1.Text = "";
         }
 
         private void buttonMultiply_Click(object sender, EventArgs e)
         {
             operation = '*';
+            firstInput = userInput;
+            userInput = "";
         }
 
         private void buttonDivide_Click(object sender, EventArgs e)
         {
             operation = '/';
+            firstInput = userInput;
+            userInput = "";
         }
 
         private void buttonSquare_Click(object sender, EventArgs e)
         {
-            operation = '^'; 
+            operation = '^';
+            firstInput = userInput;
+            double square = Convert.ToDouble(firstInput);
+            textBox1.Text = Math.Pow(square, 2).ToString();
+            userInput = Math.Pow(square, 2).ToString();
         }
 
         private void buttonRoot_Click(object sender, EventArgs e)
         {
             operation = '√';
+            firstInput = userInput;
+            double squareRt = Convert.ToDouble(firstInput);
+            textBox1.Text = Math.Sqrt(squareRt).ToString();
+            userInput = Math.Sqrt(squareRt).ToString();
+
         }
 
         private void buttonCe_Click(object sender, EventArgs e)
         {
-            operation = 'c';
+            userInput = "";
+            firstInput = "";
+            secondInput = "";
+            result = 0.0;
+            textBox1.Text = "0";
         }
 
         private void buttonEquals_Click(object sender, EventArgs e)
         {
-            operation = '=';
-        }
+            secondInput = userInput;
 
+            double firstNumber, secondNumber;
+
+            firstNumber = Convert.ToDouble(firstInput);
+            secondNumber = Convert.ToDouble(secondInput);
+
+            switch (operation)
+            {
+                case '+':
+                    result = firstNumber + secondNumber;
+                    textBox1.Text = result.ToString();
+                    break;
+                case '-':
+                    result = firstNumber - secondNumber;
+                    textBox1.Text = result.ToString();
+                    break;
+                case '*':
+                    result = firstNumber * secondNumber;
+                    textBox1.Text = result.ToString();
+                    break;
+                case '/':
+                    result = firstNumber / secondNumber;
+                    textBox1.Text = result.ToString();
+                    break;
+            }
+            
+        }
     }
 }
+
+
