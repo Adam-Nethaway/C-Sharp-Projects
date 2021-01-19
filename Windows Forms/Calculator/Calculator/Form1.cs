@@ -170,7 +170,7 @@ namespace Calculator
             {
                 case '+':
                     result = firstNumber + secondNumber;
-                    textBox1.Text = result.ToString();
+                    textBox1.Text = result.ToString();                 
                     break;
                 case '-':
                     result = firstNumber - secondNumber;
@@ -185,7 +185,8 @@ namespace Calculator
                     textBox1.Text = result.ToString();
                     break;
             }
-            
+
+            userInput = result.ToString();
         }
     }
 }
