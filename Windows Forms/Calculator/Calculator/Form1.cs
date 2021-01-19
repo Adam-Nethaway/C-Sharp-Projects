@@ -164,8 +164,6 @@ namespace Calculator
             double firstNumber, secondNumber;
 
             firstNumber = Convert.ToDouble(firstInput);
-
-            while (secondInput)
             secondNumber = Convert.ToDouble(secondInput);
 
             switch (operation)
