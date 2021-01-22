@@ -18,7 +18,7 @@ namespace Calculator
         string secondInput = "";
         char operation;
         double result = 0;
-        bool equalClicked = false;
+
 
         public Form1()
         {
@@ -28,9 +28,12 @@ namespace Calculator
             this.KeyPreview = true;
 
             textBox1.ReadOnly = true;
+            textBox2.ReadOnly = true;
 
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
         }
+
+        bool operationComplete = false;
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -106,6 +109,12 @@ namespace Calculator
 
         private void buttonOne_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "1";
             textBox1.Text += userInput;
@@ -114,6 +123,12 @@ namespace Calculator
 
         private void buttonTwo_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "2";
             textBox1.Text += userInput;
@@ -122,6 +137,12 @@ namespace Calculator
 
         private void buttonThree_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "3";
             textBox1.Text += userInput;
@@ -130,6 +151,12 @@ namespace Calculator
 
         private void buttonFour_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "4";
             textBox1.Text += userInput;
@@ -138,6 +165,12 @@ namespace Calculator
 
         private void buttonFive_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "5";
             textBox1.Text += userInput;
@@ -146,6 +179,12 @@ namespace Calculator
         
         private void buttonSix_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "6";
             textBox1.Text += userInput;
@@ -154,6 +193,12 @@ namespace Calculator
 
         private void buttonSeven_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "7";
             textBox1.Text += userInput;
@@ -162,6 +207,12 @@ namespace Calculator
 
         private void buttonEight_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "8";
             textBox1.Text += userInput;
@@ -170,6 +221,12 @@ namespace Calculator
 
         private void buttonNine_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "9";
             textBox1.Text += userInput;
@@ -178,6 +235,12 @@ namespace Calculator
 
         private void buttonZero_Click(object sender, EventArgs e)
         {
+            if (operationComplete)
+            {
+                textBox1.Text = "";
+                userInput = "";
+                operationComplete = false;
+            }
             textBox1.Text = "";
             userInput += "0";
             textBox1.Text += userInput;
@@ -257,11 +320,12 @@ namespace Calculator
             secondInput = "";
             result = 0.0;
             textBox1.Text = "0";
+            textBox2.Text = "";
         }
         private void buttonEquals_Click(object sender, EventArgs e)
         {
             try
-            {
+            {  
                 secondInput = userInput;
 
                 textBox2.Text = firstInput + operation + secondInput + " =";
@@ -292,6 +356,8 @@ namespace Calculator
                 }
 
                 userInput = result.ToString();
+
+                operationComplete = true;
 
             }
             catch (FormatException)
