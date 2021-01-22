@@ -286,6 +286,7 @@ namespace Calculator
                 }
 
                 userInput = result.ToString();
+
             }
             catch (FormatException)
             {
