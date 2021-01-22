@@ -25,6 +25,8 @@ namespace Calculator
 
             this.KeyPreview = true;
 
+            textBox1.ReadOnly = true;
+
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
         }
 
@@ -82,7 +84,7 @@ namespace Calculator
             {
                 buttonMinus.PerformClick();
             }
-            if (e.KeyCode == Keys.Divide)
+            if (e.KeyCode == Keys.Divide || e.KeyCode == Keys.OemQuestion)
             {
                 buttonDivide.PerformClick();
             }
@@ -92,7 +94,6 @@ namespace Calculator
             }
             if (e.KeyCode == Keys.Enter)
             {
-                this.Focus();
                 buttonEquals.PerformClick();
             }
         }
@@ -136,7 +137,7 @@ namespace Calculator
             textBox1.Text += userInput;
             buttonEquals.Focus();
         }
-
+        
         private void buttonSix_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
@@ -182,41 +183,51 @@ namespace Calculator
             textBox1.Text = "";
             userInput += ".";
             textBox1.Text += userInput;
+            buttonEquals.Focus();
         }
 
         private void buttonMinus_Click(object sender, EventArgs e)
         {
             operation = '-';
             firstInput = userInput;
+            textBox2.Text = firstInput + "-";
             userInput = "";
+            buttonEquals.Focus();
         }
 
         private void buttonPlus_Click(object sender, EventArgs e)
         {
             operation = '+';
             firstInput = userInput;
+            textBox2.Text = firstInput + "+";
             userInput = "";
             textBox1.Text = "";
+            buttonEquals.Focus();
         }
 
         private void buttonMultiply_Click(object sender, EventArgs e)
         {
             operation = '*';
             firstInput = userInput;
+            textBox2.Text = firstInput + "*";
             userInput = "";
+            buttonEquals.Focus();
         }
 
         private void buttonDivide_Click(object sender, EventArgs e)
         {
             operation = '/';
             firstInput = userInput;
+            textBox2.Text = firstInput + "/";
             userInput = "";
+            buttonEquals.Focus();
         }
 
         private void buttonSquare_Click(object sender, EventArgs e)
         {
             operation = '^';
             firstInput = userInput;
+            textBox2.Text = firstInput + "^" + "²" + " =";
             double square = Convert.ToDouble(firstInput);
             textBox1.Text = Math.Pow(square, 2).ToString();
             userInput = Math.Pow(square, 2).ToString();
@@ -226,6 +237,7 @@ namespace Calculator
         {
             operation = '√';
             firstInput = userInput;
+            textBox2.Text = "²√" + firstInput + " =";
             double squareRt = Convert.ToDouble(firstInput);
             textBox1.Text = Math.Sqrt(squareRt).ToString();
             userInput = Math.Sqrt(squareRt).ToString();
@@ -245,6 +257,8 @@ namespace Calculator
             try
             {
                 secondInput = userInput;
+
+                textBox2.Text = firstInput + operation + secondInput + " =";
 
                 double firstNumber, secondNumber;
 
