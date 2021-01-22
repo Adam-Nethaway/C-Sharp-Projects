@@ -18,10 +18,12 @@ namespace Calculator
         string secondInput = "";
         char operation;
         double result = 0;
+        bool equalClicked = false;
 
         public Form1()
         {
             InitializeComponent();
+
 
             this.KeyPreview = true;
 
