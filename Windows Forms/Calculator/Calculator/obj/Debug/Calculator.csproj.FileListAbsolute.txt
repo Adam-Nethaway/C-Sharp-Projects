@@ -7,4 +7,3 @@ D:\C#-Console\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Cal
 D:\C#-Console\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\C#-Console\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\C#-Console\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.pdb
-D:\C#-Console\C-Sharp-Projects\Windows Forms\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache

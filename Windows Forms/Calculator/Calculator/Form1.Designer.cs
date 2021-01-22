@@ -410,6 +410,7 @@ namespace Calculator
             this.Controls.Add(this.buttonTwo);
             this.Controls.Add(this.buttonOne);
             this.Controls.Add(this.buttonZero);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";

@@ -98,6 +98,10 @@ namespace Calculator
             {
                 buttonEquals.PerformClick();
             }
+            if (e.KeyCode == Keys.Back)
+            {
+                buttonCe.PerformClick();
+            }
         }
 
         private void buttonOne_Click(object sender, EventArgs e)
