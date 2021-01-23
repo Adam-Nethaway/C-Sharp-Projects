@@ -1,0 +1,10 @@
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csprojAssemblyReference.cache
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Form1.resources
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess_The_Number.Properties.Resources.resources
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.GenerateResource.cache
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess The Number.csproj.CoreCompileInputs.cache
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe.config
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\bin\Debug\Guess The Number.exe
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\bin\Debug\Guess The Number.pdb
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess The Number.exe
+D:\C#-Console\C-Sharp-Projects\Windows Forms\Guess The Number\Guess The Number\obj\Debug\Guess The Number.pdb
