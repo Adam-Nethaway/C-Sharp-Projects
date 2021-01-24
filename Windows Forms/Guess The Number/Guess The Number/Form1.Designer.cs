@@ -32,6 +32,8 @@ namespace Guess_The_Number
             this.highLowBox = new System.Windows.Forms.TextBox();
             this.playerInput = new System.Windows.Forms.TextBox();
             this.guessButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // highLowBox
@@ -63,11 +65,30 @@ namespace Guess_The_Number
             this.guessButton.UseVisualStyleBackColor = true;
             this.guessButton.Click += new System.EventHandler(this.guessButton_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(349, 345);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(72, 75);
+            this.textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(349, 288);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(72, 51);
+            this.textBox2.TabIndex = 4;
+            this.textBox2.Text = "Guesses Left:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 450);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.guessButton);
             this.Controls.Add(this.playerInput);
             this.Controls.Add(this.highLowBox);
@@ -84,6 +105,8 @@ namespace Guess_The_Number
         private System.Windows.Forms.TextBox highLowBox;
         private System.Windows.Forms.TextBox playerInput;
         private System.Windows.Forms.Button guessButton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

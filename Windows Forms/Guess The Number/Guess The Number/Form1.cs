@@ -23,31 +23,36 @@ namespace Guess_The_Number
 
         int randomNumber;
         int playerGuess;
-        int guessNumber = 0;
+        int guessNumber = 1;
         bool playAgain = true;
 
         private void guessButton_Click(object sender, EventArgs e)
         {
+            textBox1.Text = guessNumber.ToString();
+            guessNumber++;
 
-            playerGuess = Convert.ToInt32(playerInput.Text);
+            do
+            {
+                playerGuess = Convert.ToInt32(playerInput.Text);
 
-            if (playerGuess < randomNumber)
-            {
-                highLowBox.Text = "Too Low. Guess again..";
-            }
-            if (playerGuess > randomNumber)
-            {
-                highLowBox.Text = "Too High. Guess again...";
-            }
-            if (playerGuess == randomNumber)
-            {
-                highLowBox.Text = "Congratulations! You win";
-                guessButton.Text = "Play again?";
-            }
-            if (guessButton.Text == "Play again?")
-            {
-                InitializeComponent();
-            }
+                if (playerGuess < randomNumber)
+                {
+                    highLowBox.Text = "Too Low. Guess again..";                  
+                }
+                if (playerGuess > randomNumber)
+                {
+                    highLowBox.Text = "Too High. Guess again...";
+                }
+                if (playerGuess == randomNumber)
+                {
+                    highLowBox.Text = "Congratulations! You win";
+                    guessButton.Text = "Play again?";
+                }
+                if (guessButton.Text == "Play again?")
+                {
+                    InitializeComponent();
+                }
+            } while (guessNumber > 7);
         }
     }
 }
