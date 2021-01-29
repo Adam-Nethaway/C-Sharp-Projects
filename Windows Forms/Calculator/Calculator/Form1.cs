@@ -259,7 +259,7 @@ namespace Calculator
         {
             operation = '-';
             firstInput = userInput;
-            textBox2.Text = firstInput + "-";
+            textBox2.Text = firstInput + " " + "-";
             userInput = "";
             buttonEquals.Focus();
         }
@@ -268,7 +268,7 @@ namespace Calculator
         {
             operation = '+';
             firstInput = userInput;
-            textBox2.Text = firstInput + "+";
+            textBox2.Text = firstInput + " " + "+";
             userInput = "";
             textBox1.Text = "";
             buttonEquals.Focus();
@@ -278,7 +278,7 @@ namespace Calculator
         {
             operation = '*';
             firstInput = userInput;
-            textBox2.Text = firstInput + "*";
+            textBox2.Text = firstInput + " " + "*";
             userInput = "";
             buttonEquals.Focus();
         }
@@ -287,7 +287,7 @@ namespace Calculator
         {
             operation = '/';
             firstInput = userInput;
-            textBox2.Text = firstInput + "/";
+            textBox2.Text = firstInput + " " + "/";
             userInput = "";
             buttonEquals.Focus();
         }
@@ -328,7 +328,7 @@ namespace Calculator
             {  
                 secondInput = userInput;
 
-                textBox2.Text = firstInput + operation + secondInput + " =";
+                textBox2.Text = firstInput + " " + operation + " " + secondInput + " =";
 
                 double firstNumber, secondNumber;
 
